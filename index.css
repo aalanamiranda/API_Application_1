@@ -1,16 +1,23 @@
-.navbar{
-    
-}
-
-.page-content{
-  
+body {
   background-image: url("./assets/rocket.jpg");
-
-  
   height: 100%;
-
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+navbar{
+  position: fixed;
+  z-index: 100;
+}
+
+
+.page-content{
+  background-color: whitesmoke;
+  color: black;
+  float: right;
+  width: 100%;
 }
